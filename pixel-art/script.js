@@ -1,7 +1,7 @@
 let grid = document.querySelector('#grid');
 let cell = null;
 let rows=null;
-let selectedColor = "rgb(0,0,0)"
+let selectedColor = "hsl(0, 100%, 75%))"
 function pixelArt(el,rows,columns){
     let griditem="";
     for(let i=0;i<rows;i++){
@@ -40,10 +40,8 @@ function pixelArt(el,rows,columns){
 function colorCols(col) {
     let str="";
     for (let i = 0; i < col; i++) {
-        let a= Math.floor(Math.random() * 256); 
-        let b= Math.floor(Math.random() * 256); 
-        let c= Math.floor(Math.random() * 256); 
-        str+=`<div class="grid-col10 cell" style="background-color:rgb(${a},${b},${c}); cursor:pointer"></div>`
+        let hue= Math.floor(Math.random() * 256); 
+        str+=`<div class="grid-col10 cell" style="background-color:hsl(${hue}, 100%, 75%); cursor:pointer"></div>`
     }
     return str
 }

@@ -11,13 +11,22 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #af80ff91;
+}
+
+#grid {
+    background-color: rgba(255, 255, 255, 0.897);
+    padding: 0.5em;
+    border-radius: 10px;
 }
 
 .cell {
+    margin: 0.5px;
+    border-radius: 4px;
     display: flex;
-    height: 64px;
-    width: 64px;
-    border: 2px #c6c6c6 solid;
+    height: 56px;
+    width: 56px;
+    border: 0.25px #af80ff91 solid;
 }
 
 .grid-col{
