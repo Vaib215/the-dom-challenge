@@ -1,7 +1,8 @@
 let grid = document.querySelector('#grid');
 let cell = null;
 let rows=null;
-let selectedColor = "hsl(0, 100%, 75%))"
+let isMouseClicked = false
+
 function pixelArt(el,rows,columns){
     let griditem="";
     for(let i=0;i<rows;i++){
@@ -21,20 +22,36 @@ function pixelArt(el,rows,columns){
     cell = document.querySelectorAll('.grid-col');
     cell.forEach(function(item) {
         item.addEventListener('click', function (e) {
-            e.preventDefault()
             e.target.style.backgroundColor= selectedColor;
+            isMouseClicked=false
         });
-        item.addEventListener('drag', function (e) {
-            e.target.style.backgroundColor= selectedColor;
-        });
-        item.addEventListener('dragstart', function (e) {
-            e.target.style.backgroundColor= selectedColor;
-        });
-        item.addEventListener('dragover', function (e) {
-            e.preventDefault()
-            e.target.style.backgroundColor= selectedColor;
-        });
+        item.addEventListener('mousedown', mouseDownEvent);
+        item.addEventListener('mousemove', mouseMoveEvent);
+        item.addEventListener('mouseup', mouseUpEvent);
+        item.addEventListener('touchstart', mouseDownEvent);
+        item.addEventListener('touchend', mouseUpEvent);
     });
+}
+
+document.addEventListener('mouseover', (event)=> {
+    if (event.target.classList.contains("grid")){
+        isMouseClicked=false
+    }
+});
+
+const mouseDownEvent = (e)=> {
+    e.target.style.backgroundColor= selectedColor;
+    isMouseClicked = true
+}
+
+const mouseMoveEvent = (e)=> {
+    if (isMouseClicked) {
+        e.target.style.backgroundColor= selectedColor;
+    }
+}
+
+const mouseUpEvent = (e)=> {
+    isMouseClicked = false
 }
 
 function colorCols(col) {

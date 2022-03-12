@@ -27,6 +27,7 @@ body {
     height: 56px;
     width: 56px;
     border: 0.25px #af80ff91 solid;
+    user-select: none;
 }
 
 .grid-col{
@@ -37,4 +38,11 @@ body {
 .grid-row{
     display: flex;
     flex-direction: row;
+}
+
+@media (max-width:800px){
+    .cell{
+        height: 32px;
+        width: 32px;
+    }
 }
