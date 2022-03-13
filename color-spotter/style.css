@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0f0e17;
+}
+
+#score {
+    background-color: #ff8906;
+    color: #fffffe;
+    font-size: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh 8vh;
+    border-radius: 1vh;
+}
+
+#score:hover {
+    border: white 0.2vh solid;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    background-color: #474747;
+    width: 80vh;
+    height: 80vh;
+    margin: 2vh;
+    border-radius: 1vh;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.cell {
+    border-radius: 0.5vh;
+    margin: 0.25%;
+}
+
+.cell:hover {
+    border: white 0.25vh solid;
+}
+
+.shake {
+    animation: shake 0.8s infinite;
+    transform: translate3d(0, 0, 0);
+}
+
+@keyframes shake {
+    0% {transform: translateX(0);} 
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-8px);} 
+    20%, 40%, 60%, 80%,100% {transform: translateX(8px);} 
+ } 
