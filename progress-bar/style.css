@@ -42,7 +42,7 @@ body {
     background: linear-gradient(90deg, #9b5200 0%, #ff9e30 100%);
     height: 10vh;
     border-radius: 1vh;
-    animation: fillani 2.9s linear;
+    animation: fillani 3s linear;
 }
 
 @keyframes fillani {
