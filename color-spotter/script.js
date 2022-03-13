@@ -1,5 +1,5 @@
 let order = 4
-let scr=0
+let scr = 0
 const createEvent = (o, k) => {
     o.addEventListener('click', function (e) {
         if (e.target === k) {

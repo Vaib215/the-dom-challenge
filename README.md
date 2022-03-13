@@ -8,7 +8,7 @@ industrial level machine round questions.
 
 ### Challenge 1:
 
-Implement Star Rating Widget using HTML, CSS and JavaScript [View](./star-rating/README.md)
+Implement Star Rating Widget using HTML, CSS and JavaScript [View](./star-rating)
 
 **Duration:** 60 Minutes <br/>
 
@@ -20,7 +20,7 @@ Implement Star Rating Widget using HTML, CSS and JavaScript [View](./star-rating
 
 ### Challenge 2:
 
-Implement Pixel Art grid using HTML, CSS and JavaScript [View](./pixel-art/README.md)
+Implement Pixel Art grid using HTML, CSS and JavaScript [View](./pixel-art)
 
 **Duration:** 60 Minutes <br/>
 
@@ -28,7 +28,7 @@ Implement Pixel Art grid using HTML, CSS and JavaScript [View](./pixel-art/READM
 
 ### Challenge 3:
 
-Implement chess board using HTML, CSS and Vanilla Javascript, where if you click on any of the block it should highlight its diagonals. [View](./chess-board/README.md)
+Implement chess board using HTML, CSS and Vanilla Javascript, where if you click on any of the block it should highlight its diagonals. [View](./chess-board)
 
 **Duration:** 90 Minutes <br/>
 
@@ -36,7 +36,7 @@ Implement chess board using HTML, CSS and Vanilla Javascript, where if you click
 
 ### Challenge 4:
 
-Implement color spotter game using HTML, CSS and Vanilla Javascript, where you have to identify the cell that is different from the rest. [View](./color-spotter/README.md)
+Implement color spotter game using HTML, CSS and Vanilla Javascript, where you have to identify the cell that is different from the rest. [View](./color-spotter)
 
 **Duration:** 90 Minutes <br/>
 
@@ -44,7 +44,7 @@ Implement color spotter game using HTML, CSS and Vanilla Javascript, where you h
 
 ### Challenge 5:
 
-Implement Progress bar using HTML, CSS and Vanilla Javascript. [View](./progress-bar/README.md)
+Implement Progress bar using HTML, CSS and Vanilla Javascript. [View](./progress-bar)
 
 **Duration:** 90 Minutes <br/>
 
@@ -52,7 +52,7 @@ Implement Progress bar using HTML, CSS and Vanilla Javascript. [View](./progress
 
 ### Challenge 6:
 
-Implement Memory Game using HTML, CSS and Vanilla Javascript. [View](./memory-game/README.md)
+Implement Memory Game using HTML, CSS and Vanilla Javascript. [View](./memory-game)
 
 **Duration:** 90 Minutes <br/>
 
@@ -60,7 +60,7 @@ Implement Memory Game using HTML, CSS and Vanilla Javascript. [View](./memory-ga
 
 ### Challenge 7:
 
-Implement Day Calendar using HTML, CSS and Vanilla Javascript. [View](./calendar/README.md)
+Implement Day Calendar using HTML, CSS and Vanilla Javascript. [View](./calendar)
 
 **Duration:** 120 Minutes <br/>
 

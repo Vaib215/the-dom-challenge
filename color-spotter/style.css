@@ -48,6 +48,7 @@ body {
 .cell {
     border-radius: 0.5vh;
     margin: 0.25%;
+    border: rgba(255, 255, 255, 0) 0.25vh solid;
 }
 
 .cell:hover {
