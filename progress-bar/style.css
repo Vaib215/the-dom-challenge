@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0f0e17;
+}
+
+#btn {
+    background-color: #ff8906;
+    color: #fffffe;
+    font-size: 5vh;
+    display: flex;
+    padding: 1vh 2vh;
+    border-radius: 1vh;
+    outline: none;
+}
+
+#bar {
+    display: flex;
+    flex-direction: column;
+    background-color: #474747;
+    width: 80vh;
+    height: 10vh;
+    margin: 4vh;
+    border-radius: 1vh;
+}
+
+.filled {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: linear-gradient(90deg, #9b5200 0%, #ff9e30 100%);
+    height: 10vh;
+    border-radius: 1vh;
+    animation: fillani 2.9s linear;
+}
+
+@keyframes fillani {
+    from{
+        width: 0vh;
+    }
+    to{
+        width: 80vh;
+    }
+}
